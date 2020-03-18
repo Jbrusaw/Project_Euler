@@ -148,14 +148,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="functions.c" />
+    <ClCompile Include="functions.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="p001_c.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-    </ClCompile>
     <ClCompile Include="p001.cpp" />
     <ClCompile Include="p002.cpp" />
-    <ClCompile Include="p002_c.c" />
+    <ClCompile Include="p003.cpp" />
+    <ClCompile Include="p004.cpp" />
+    <ClCompile Include="p005.cpp" />
+    <ClCompile Include="test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functions.h" />

@@ -18,19 +18,25 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="functions.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="p001.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="p001_c.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="p002.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p002_c.c">
+    <ClCompile Include="p003.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="p004.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="p005.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

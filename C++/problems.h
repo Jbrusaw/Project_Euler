@@ -3,10 +3,10 @@
 
 int p001();
 int p002();
+int p003();
+int p004();
+long long p005();
 
-extern "C" {
-	int p001_c();
-	int p002_c();
-}
+int test();
 
 #endif

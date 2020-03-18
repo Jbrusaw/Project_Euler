@@ -1,4 +1,5 @@
-int p002(){
+int p002()
+{
 	auto solution = 2, fib1 = 1, fib2 = 2;
 
 	while (fib1 + fib2 < 4000000)
