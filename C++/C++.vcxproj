@@ -163,6 +163,16 @@
     <ClCompile Include="p011.cpp" />
     <ClCompile Include="p012.cpp" />
     <ClCompile Include="p013.cpp" />
+    <ClCompile Include="p014.cpp" />
+    <ClCompile Include="p015.cpp" />
+    <ClCompile Include="p016.cpp" />
+    <ClCompile Include="p017.cpp" />
+    <ClCompile Include="p018.cpp" />
+    <ClCompile Include="p019.cpp" />
+    <ClCompile Include="p020.cpp" />
+    <ClCompile Include="p021.cpp" />
+    <ClCompile Include="p022.cpp" />
+    <ClCompile Include="p023.cpp" />
     <ClCompile Include="test.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -171,6 +181,8 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="p013.txt" />
+    <Text Include="p018.txt" />
+    <Text Include="p022.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -7,7 +7,7 @@
 //By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 
 
-int p002()
+long long p002()
 {
 	auto solution = 2, fib1 = 1, fib2 = 2;
 

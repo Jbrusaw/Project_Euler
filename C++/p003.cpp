@@ -6,7 +6,7 @@
 //What is the largest prime factor of the number 600851475143 ?
 
 
-int p003()
+long long p003()
 {
 	auto n = 600851475143;
 	for (auto i = 3; i < n; i+=2)

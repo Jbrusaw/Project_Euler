@@ -8,7 +8,7 @@
 
 #include "functions.h"
 
-int p007()
+long long p007()
 {
 	return prime_sieve_first(10001).back();
 }

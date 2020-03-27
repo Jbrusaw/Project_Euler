@@ -8,7 +8,7 @@
 #include <algorithm>
 #include "functions.h"
 
-int p004()
+long long p004()
 {
 	//largest possible number is 6 digits
 	//if we assume the number is 9xxxx9, then the last digit

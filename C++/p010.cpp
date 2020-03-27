@@ -6,14 +6,35 @@
 
 //Find the sum of all the primes below two million.
 
+#include <cmath>
+#include <iostream>
 
-#include "functions.h"
+bool is_prime(const int n, const int* last, const int* primes)
+{
+	for (auto i = primes; (*i) <= sqrt(n) && i <= last; ++i)
+	{
+		if (n % (*i) == 0)
+			return false;
+	}
+	return true;
+}
+
 
 long long p010()
 {
-	auto primes = prime_sieve_under(2000000);
-	long long ret = 0;
-	for (auto p = primes.begin(); p < primes.end(); ++p)
-		ret += *p;
+	const auto primes = new int[1000000];
+	primes[0] = 2;
+	long long ret = 2;
+	auto last = primes;
+	for (auto i = 3; i < 2000000; i+=2)
+	{
+		if(is_prime(i,last,primes))
+		{
+			last++;
+			*last = i;
+			ret += i;
+		}
+	}
+	delete[] primes;
 	return ret;
 }

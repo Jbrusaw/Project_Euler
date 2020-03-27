@@ -23,26 +23,26 @@ What is the value of the first triangle number to have over five hundred divisor
 
 #include <cmath>
 
-int num_divisors(int n)
+long long num_divisors(const int n)
 {
+	//every divisor will have a 1:1 match (i.e if n is divisible by 2, then the 1:1 match is 2 : n/2
+	//therefore, we only need to check up to sqrt(n) and increase ret by 2 for every divisor
     auto ret = 0;
     for (auto i = 1; i < sqrt(n); i++)
     {
         if (n % i == 0)
             ret+=2;
     }
+	//however the sqrt(n) will only be 1 divisor; itself
     if (static_cast<int>(sqrt(n)) == sqrt(n))
         ret++;
     return ret;
 }
 
-int p012()
+long long p012()
 {
     auto tri = 0;
-	for (auto i = 1;;++i)
-	{
+	for (auto i = 1; num_divisors(tri) < 500; ++i)
         tri += i;
-		if (num_divisors(tri) > 500)
-			return tri;
-	}
+    return tri;
 }

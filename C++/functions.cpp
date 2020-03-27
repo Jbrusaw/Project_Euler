@@ -1,3 +1,5 @@
+//Some common functions that a lot of problems use
+
 #include "functions.h"
 #include <cmath>
 #include <string>
