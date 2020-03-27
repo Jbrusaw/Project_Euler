@@ -2,6 +2,7 @@
 #include <cmath>
 #include <string>
 #include <vector>
+#include <iostream>
 
 bool is_prime(const long long n)
 {
@@ -38,7 +39,7 @@ std::vector<long long> prime_sieve_under(const long long n)
 	for (auto i = 2; ret[static_cast<__int64>(i) - 1] < n; i++)
 	{
 		auto p = ret[static_cast<__int64>(i) - 1] + 2;
-		while (!is_prime(p, ret))
+		while (!is_prime(p, ret) && p <= n)
 			p += 2;
 		if (p <= n)
 			ret.push_back(p);
@@ -64,7 +65,7 @@ std::vector<long long> prime_sieve_first(const int n)
 	
 	for (auto i = 2; i < n; i++)
 	{
-		auto p = ret[static_cast<__int64>(i) - 1];
+		auto p = ret[static_cast<__int64>(i) - 1] + 2;
 		while (!is_prime(p, ret))
 			p += 2;
 		ret.push_back(p);

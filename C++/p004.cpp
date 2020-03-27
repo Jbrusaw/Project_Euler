@@ -20,7 +20,7 @@ int p004()
 		{
 			if (i * j < solution)
 				break;
-			if (is_palindrome(i * j))
+			if (is_palindrome(static_cast<long long>(i) * static_cast<long long>(j)))
 				solution = std::max(solution, i * j);
 		}
 	}
@@ -31,7 +31,7 @@ int p004()
 		{
 			if (i * j < solution)
 				break;
-			if (is_palindrome(i * j))
+			if (is_palindrome(static_cast<long long>(i) * static_cast<long long>(j)))
 				solution = std::max(solution, i * j);
 		}
 	}
@@ -42,7 +42,7 @@ int p004()
 		{
 			if (i * j < solution)
 				break;
-			if (is_palindrome(i * j))
+			if (is_palindrome(static_cast<long long>(i) * static_cast<long long>(j)))
 				solution = std::max(solution, i * j);
 		}
 	}

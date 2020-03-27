@@ -155,11 +155,22 @@
     <ClCompile Include="p003.cpp" />
     <ClCompile Include="p004.cpp" />
     <ClCompile Include="p005.cpp" />
+    <ClCompile Include="p006.cpp" />
+    <ClCompile Include="p007.cpp" />
+    <ClCompile Include="p008.cpp" />
+    <ClCompile Include="p009.cpp" />
+    <ClCompile Include="p010.cpp" />
+    <ClCompile Include="p011.cpp" />
+    <ClCompile Include="p012.cpp" />
+    <ClCompile Include="p013.cpp" />
     <ClCompile Include="test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functions.h" />
     <ClInclude Include="problems.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="p013.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

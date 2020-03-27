@@ -39,6 +39,30 @@
     <ClCompile Include="p005.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="p007.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="p008.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="p009.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="p010.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="p011.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="p006.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="p012.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="p013.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functions.h">
@@ -47,5 +71,10 @@
     <ClInclude Include="problems.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="p013.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>
