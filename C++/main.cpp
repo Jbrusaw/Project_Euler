@@ -5,6 +5,6 @@
 
 int main()  // NOLINT(bugprone-exception-escape)
 {
-	std::cout << p023() << std::endl;
+	std::cout << p025() << std::endl;
 	std::cout << test() << " tests passed!";
 }

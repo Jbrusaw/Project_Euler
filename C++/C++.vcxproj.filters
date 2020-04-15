@@ -93,6 +93,12 @@
     <ClCompile Include="p023.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="p024.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="p025.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functions.h">

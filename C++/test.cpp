@@ -51,6 +51,8 @@ int test()
 	pass += assert(21, p021, 31626);
 	pass += assert(22, p022, 871198282);
 	pass += assert(23, p023, 4179871);
+	pass += assert(24, p024, 2783915460);
+	pass += assert(25, p025, 4782);
 
 	const auto stop = high_resolution_clock::now();
 	const auto elapsed = duration_cast<milliseconds>(stop - start).count() * 1e-3;

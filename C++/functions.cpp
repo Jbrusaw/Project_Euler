@@ -109,3 +109,11 @@ std::vector<long long> prime_factorization(long long n)
 	}
 	return ret;
 }
+
+long long factorial(const int n)
+{
+	auto ret = 1;
+	for (auto i = 2; i <= n; i++)
+		ret *= i;
+	return ret;
+}

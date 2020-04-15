@@ -10,5 +10,6 @@ std::vector<long long> prime_sieve_first(int);
 bool is_palindrome(long long);
 int num_digits(long long);
 std::vector<long long> prime_factorization(long long);
+long long factorial(int);
 
 #endif

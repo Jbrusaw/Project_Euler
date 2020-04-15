@@ -173,6 +173,8 @@
     <ClCompile Include="p021.cpp" />
     <ClCompile Include="p022.cpp" />
     <ClCompile Include="p023.cpp" />
+    <ClCompile Include="p024.cpp" />
+    <ClCompile Include="p025.cpp" />
     <ClCompile Include="test.cpp" />
   </ItemGroup>
   <ItemGroup>

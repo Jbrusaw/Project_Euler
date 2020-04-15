@@ -26,6 +26,8 @@ ll p020();
 ll p021();
 ll p022();
 ll p023();
+ll p024();
+ll p025();
 
 int test();
 

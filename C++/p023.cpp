@@ -42,18 +42,14 @@ long long p023()
 {
 	
 	std::vector<int> abundant;
-	for (auto i = 12; i < 28123; i++)
+	for (auto i = 12; i < 28124; i++)
 	{
 		//if it's an abundant number, then add it to the list, then iterator through the list summing it against every number
 		//and marking nums as true for every sum
 		if (d23(i) > i) {
 			abundant.push_back(i);
-			for (auto j = abundant.begin(); j < abundant.end(); ++j)
-			{
-				if (i + *j > 28124)
-					break;
+			for (auto j = abundant.begin(); j < abundant.end() && i + *j < 28124; ++j)
 				nums[i + *j] = true;
-			}
 		}
 	}
 
